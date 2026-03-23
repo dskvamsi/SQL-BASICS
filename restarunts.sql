@@ -19,4 +19,12 @@ VALUES
 (4000004, 'Andhra Flavors', 'Guntur', 4.3, '09:30:00', '22:30:00'),
 (5000005, 'Urban Kitchen', 'Tirupati', 4.6, '10:00:00', '23:00:00');
 
+
+ 
+update set restaurant_id=1000001 where restaurant_id=1;
+update set restaurant_id=2000002 where restaurant_id=2;
+update set restaurant_id=3000003 where restaurant_id=3;
+update set restaurant_id=4000004 where restaurant_id=4;
+update set restaurant_id=5000005 where restaurant_id=5;
+
 select * from restaurants;
